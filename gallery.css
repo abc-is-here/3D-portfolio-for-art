@@ -21,7 +21,6 @@ html, body, div, img {
 
 .title-nav{
     padding: 10px;
-    color: rgb(230, 201, 40);
     font-weight: 900;
     font-size: 50px;
 }
@@ -65,4 +64,9 @@ html, body, div, img {
     width: 100%;
     padding-bottom: 15px;
     border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(230, 201, 40);
 }
