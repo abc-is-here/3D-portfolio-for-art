@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 25%;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.title-nav{
+    padding: 10px;
+    color: rgb(230, 201, 40);
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.gallery{
+    height: 100vh;
+    text-align: center;
+}
+
+.gallery h1{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
